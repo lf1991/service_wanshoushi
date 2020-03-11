@@ -84,38 +84,24 @@
                enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
 
-        <!-- <table tableName="sys_role" domainObjectName="SysRole" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
+        <table tableName="user_role" domainObjectName="UserRole" enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
 
-         <table tableName="sys_user" domainObjectName="SysUser" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
+        <table tableName="subject_info" domainObjectName="SubjectInfo" enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
 
-         <table tableName="sys_role_menu" domainObjectName="SysRoleMenu" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
+        <table tableName="sign_record" domainObjectName="SignRecord" enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
 
-         <table tableName="sys_user_role" domainObjectName="SysUserRole" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
+        <table tableName="merits_direction" domainObjectName="MeritsDirection" enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
 
-         <table tableName="sys_config" domainObjectName="SysConfig" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
 
-         <table tableName="sys_log" domainObjectName="SysLog" enableCountByExample="false" enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
-
-         <table tableName="schedule_job" domainObjectName="ScheduleJob" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
-
-         <table tableName="schedule_job_log" domainObjectName="ScheduleJobLog" enableCountByExample="false"
-                enableUpdateByExample="false"
-                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
-
-         <table tableName="mmall_product" domainObjectName="Product" enableCountByExample="false"
+        <!--<table tableName="mmall_product" domainObjectName="Product" enableCountByExample="false"
                 enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                 selectByExampleQueryId="false">
              <columnOverride column="detail" jdbcType="VARCHAR"/>

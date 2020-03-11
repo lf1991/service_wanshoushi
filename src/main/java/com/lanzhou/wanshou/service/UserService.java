@@ -1,10 +1,10 @@
 package com.lanzhou.wanshou.service;
 
-import com.lanzhou.wanshou.entity.User;
+import com.lanzhou.wanshou.entity.UserInfo;
 import org.springframework.stereotype.Service;
 
 
 @Service
 public interface UserService {
-    User findUserById(Integer id);
+    UserInfo findUserById(Integer id);
 }

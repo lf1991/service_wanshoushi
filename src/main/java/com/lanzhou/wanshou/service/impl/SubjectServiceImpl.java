@@ -9,16 +9,27 @@ import com.lanzhou.wanshou.service.UserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class SubjectServiceImpl implements SubjectService {
 
 
     @Resource
-    private UserInfoMapper mapper;
+    private SubjectInfoMapper subjectInfoMapper;
 
     @Override
-    public UserInfo findUserById(Integer id) {
-        return mapper.selectByPrimaryKey(1);
+    public List<SubjectInfo> queryAllSubject() {
+        return subjectInfoMapper.selectAll();
+    }
+
+    @Override
+    public void insertSubject(SubjectInfo subjectInfo) {
+
+    }
+
+    @Override
+    public Integer deleteSubject(Integer subjectId) {
+        return null;
     }
 }
