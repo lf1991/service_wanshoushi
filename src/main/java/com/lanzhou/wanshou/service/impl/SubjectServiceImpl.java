@@ -24,12 +24,22 @@ public class SubjectServiceImpl implements SubjectService {
     }
 
     @Override
-    public void insertSubject(SubjectInfo subjectInfo) {
-
+    public Integer insertSubject(SubjectInfo subjectInfo) {
+        return null;
     }
 
     @Override
-    public Integer deleteSubject(Integer subjectId) {
+    public Integer deleteSubject(SubjectInfo subjectInfo) {
         return null;
+    }
+
+    @Override
+    public Integer updateSubject(SubjectInfo subjectInfo) {
+        return null;
+    }
+
+    @Override
+    public List<String> queryAllUnits() {
+        return subjectInfoMapper.queryAllUnits();
     }
 }

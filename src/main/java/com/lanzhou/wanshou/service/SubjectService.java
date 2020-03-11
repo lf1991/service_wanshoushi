@@ -21,13 +21,29 @@ public interface SubjectService {
      *
      * @param subjectInfo
      */
-    void insertSubject(SubjectInfo subjectInfo);
+    Integer insertSubject(SubjectInfo subjectInfo);
+
 
     /**
      * 删除科目
      *
-     * @param subjectId
+     * @param subjectInfo
      * @return
      */
-    Integer deleteSubject(Integer subjectId);
+    Integer deleteSubject(SubjectInfo subjectInfo);
+
+    /**
+     * 修改科目
+     *
+     * @param subjectInfo
+     * @return
+     */
+    Integer updateSubject(SubjectInfo subjectInfo);
+
+    /**
+     * 查询所有单位
+     *
+     * @return
+     */
+    List<String> queryAllUnits();
 }

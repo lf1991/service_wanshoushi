@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11a1fd0-21ba-4a47-b290-e9f44c83c4e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lanzhou_wanshou_b_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lanzhou_wanshou_b_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/SpringBootStartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanzhou_wanshou_b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lanzhou_wanshou_b.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MeritsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MeritsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/filter/AllowOriginFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MeritsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MeritsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lanzhou_wanshou_b.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MeritsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MeritsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/SubjectInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/SubjectInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SubjectInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SubjectInfoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/SubjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/filter/AllowOriginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/MeritsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/MeritsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/dao/SubjectInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/dao/SubjectInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/SubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/SubjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mappers/SubjectInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mappers/SubjectInfoMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +127,7 @@
       <updated>1582472205192</updated>
       <workItem from="1582472207881" duration="5573000" />
       <workItem from="1583774283286" duration="27106000" />
-      <workItem from="1583942360176" duration="7179000" />
+      <workItem from="1583942360176" duration="9549000" />
     </task>
     <servers />
   </component>

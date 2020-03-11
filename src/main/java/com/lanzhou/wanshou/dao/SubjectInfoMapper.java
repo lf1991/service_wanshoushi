@@ -21,4 +21,6 @@ public interface SubjectInfoMapper {
     int updateByPrimaryKeySelective(SubjectInfo record);
 
     int updateByPrimaryKey(SubjectInfo record);
+
+    List<String> queryAllUnits();
 }

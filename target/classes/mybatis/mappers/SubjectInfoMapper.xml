@@ -92,5 +92,9 @@
           brief = #{brief,jdbcType=VARCHAR},
           unit = #{unit,jdbcType=VARCHAR}
         where id = #{id,jdbcType=INTEGER}
-  </update>
+    </update>
+
+    <select id="queryAllUnits" resultType="String">
+        SELECT DISTINCT t.unit FROM subject_info t
+    </select>
 </mapper>
