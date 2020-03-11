@@ -15,4 +15,27 @@ public interface MeritsService {
      */
     List<MeritsDirection> queryAllMerits();
 
+    /**
+     * 新增功德回向
+     *
+     * @return
+     */
+    Integer insertMerit(MeritsDirection meritsDirection);
+
+    /**
+     * 删除功德回向
+     *
+     * @param meritsDirection
+     * @return
+     */
+    Integer deleteMerit(MeritsDirection meritsDirection);
+
+    /**
+     * 修改功德回向
+     *
+     * @param meritsDirection
+     * @return
+     */
+    Integer updateMerit(MeritsDirection meritsDirection);
+
 }

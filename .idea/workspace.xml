@@ -2,43 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11a1fd0-21ba-4a47-b290-e9f44c83c4e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MeritsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/filter/AllowOriginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MeritsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/SubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lanzhou_wanshou_b_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lanzhou_wanshou_b_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/SpringBootStartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lanzhou_wanshou_b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lanzhou_wanshou_b.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/UserInfoMapper.java.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/Chapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/Moudle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/UserInfo.java.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/UserInfo.java.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/UserInfo.java.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MeritsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MeritsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/filter/AllowOriginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MeritsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MeritsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lanzhou_wanshou_b.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/entity/Chapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/entity/Moudle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/entity/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mappers/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mappers/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MeritsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MeritsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/SubjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/filter/AllowOriginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/MeritsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/MeritsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/MeritsServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/generator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/config" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -105,6 +90,7 @@
       <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\java\com\lanzhou\wanshou\mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\java\com\lanzhou\wanshou\config" />
       <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\generator" />
       <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\mybatis\mapper" />
       <recent name="E:\workspace\workspace_temple\lanzhou_wanshou_b\src\main\java\com\lanzhou\wanshou\controller" />
@@ -152,6 +138,7 @@
       <updated>1582472205192</updated>
       <workItem from="1582472207881" duration="5573000" />
       <workItem from="1583774283286" duration="27106000" />
+      <workItem from="1583942360176" duration="7179000" />
     </task>
     <servers />
   </component>
@@ -163,7 +150,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
