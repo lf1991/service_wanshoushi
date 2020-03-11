@@ -1,4 +1,4 @@
-package com.lanzhou.wanshou.bean;
+package com.lanzhou.wanshou.entity;
 
 /**
  * 成员管理类
@@ -17,6 +17,19 @@ public class User {
      * 联系方式
      */
     private String tel;
+    /**
+     * 权限Id
+     */
+    private int roleId;
+
+    public int getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(int roleId) {
+        this.roleId = roleId;
+    }
+
 
     public int getId() {
         return id;

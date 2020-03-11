@@ -1,4 +1,4 @@
-package com.lanzhou.wanshou.bean;
+package com.lanzhou.wanshou.entity;
 
 /**
  * 模块

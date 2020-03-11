@@ -1,19 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a11a1fd0-21ba-4a47-b290-e9f44c83c4e5" name="Default Changelist" comment="" />
+    <list default="true" id="a11a1fd0-21ba-4a47-b290-e9f44c83c4e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lanzhou_wanshou_b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lanzhou_wanshou_b.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/LanzhouWanshouApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/LanzhouWanshouApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/bean/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/Chapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/bean/Moudle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/Moudle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/bean/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lanzhou_wanshou_b.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/LanzhouWanshouApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/LanzhouWanshouApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/bean/Chapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/bean/Moudle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/bean/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -36,21 +88,28 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/generator" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lanzhou.wanshou.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\mybatis" />
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\java\com\lanzhou\wanshou\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\generator" />
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\mybatis\mapper" />
+      <recent name="E:\workspace\workspace_temple\lanzhou_wanshou_b\src\main\java\com\lanzhou\wanshou\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lanzhou.wanshou.bean" />
       <recent name="com.lanzhou.wanshou.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\workspace_temple\lanzhou_wanshou_b\src\main\java\com\lanzhou\wanshou\controller" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lanzhou.wanshou.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,36 +144,22 @@
       <option name="presentableId" value="Default" />
       <updated>1582472205192</updated>
       <workItem from="1582472207881" duration="5573000" />
+      <workItem from="1583774283286" duration="18303000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

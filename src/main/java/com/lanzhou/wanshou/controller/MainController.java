@@ -1,8 +1,11 @@
 package com.lanzhou.wanshou.controller;
 
 
-import com.lanzhou.wanshou.bean.Moudle;
-import com.lanzhou.wanshou.bean.Subject;
+import com.lanzhou.wanshou.entity.Subject;
+import com.lanzhou.wanshou.entity.User;
+import com.lanzhou.wanshou.dao.UserDao;
+import com.lanzhou.wanshou.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -12,22 +15,17 @@ import java.util.List;
 @RequestMapping("main")
 public class MainController {
 
+    @Autowired
+    private UserService userService;
+
     /**
      * 模块管理
      *
      * @return
      */
-    @GetMapping(path = "/queryMoudles")
-    public List<Moudle> queryMoudles() {
-        List<Moudle> moudles = new ArrayList<Moudle>();
-        for (int i = 0; i <= 10; i++) {
-            Moudle moudle = new Moudle();
-            moudle.setId(1);
-            moudle.setName("共修科目");
-            moudle.setBrief("南无啊弥陀拂...");
-            moudles.add(moudle);
-        }
-        return moudles;
+    @GetMapping(path = "/queryUserById")
+    public User queryUserById() {
+        return userService.findUserById(1);
     }
 
     /**
@@ -48,6 +46,7 @@ public class MainController {
         }
         return subjects;
     }
+
     /**
      * 填到详情查询
      *
