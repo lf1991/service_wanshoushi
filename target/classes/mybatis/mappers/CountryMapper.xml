@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lanzhou.wanshou.dao.CountryMapper">
+    <resultMap id="BaseResultMap" type="com.lanzhou.wanshou.entity.Country">
+        <constructor>
+            <idArg column="country_id" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+            <arg column="city_id" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+            <arg column="p_id" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+            <arg column="country_name" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        </constructor>
+    </resultMap>
+    <sql id="Base_Column_List">
+       country_id, city_id, p_id, country_name
+    </sql>
+
+    <select id="queryCountryByCityId" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List"/>
+        from d_country
+        where city_id = #{cityId,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List"/>
+        from d_country
+        where country_id = #{countryId,jdbcType=INTEGER}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+      delete from d_country
+      where country_id = #{countryId,jdbcType=INTEGER}
+    </delete>
+
+    <insert id="insert" parameterType="com.lanzhou.wanshou.entity.Country">
+      insert into d_country (country_id, city_id, p_id,
+        country_name)
+      values (#{countryId,jdbcType=INTEGER}, #{cityId,jdbcType=INTEGER}, #{pId,jdbcType=INTEGER},
+        #{countryName,jdbcType=VARCHAR})
+    </insert>
+
+    <insert id="insertSelective" parameterType="com.lanzhou.wanshou.entity.Country">
+        insert into d_country
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="countryId != null">
+                country_id,
+            </if>
+            <if test="cityId != null">
+                city_id,
+            </if>
+            <if test="pId != null">
+                p_id,
+            </if>
+            <if test="countryName != null">
+                country_name,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="countryId != null">
+                #{countryId,jdbcType=INTEGER},
+            </if>
+            <if test="cityId != null">
+                #{cityId,jdbcType=INTEGER},
+            </if>
+            <if test="pId != null">
+                #{pId,jdbcType=INTEGER},
+            </if>
+            <if test="countryName != null">
+                #{countryName,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.lanzhou.wanshou.entity.Country">
+        update d_country
+        <set>
+            <if test="cityId != null">
+                city_id = #{cityId,jdbcType=INTEGER},
+            </if>
+            <if test="pId != null">
+                p_id = #{pId,jdbcType=INTEGER},
+            </if>
+            <if test="countryName != null">
+                country_name = #{countryName,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where country_id = #{countryId,jdbcType=INTEGER}
+    </update>
+
+    <update id="updateByPrimaryKey" parameterType="com.lanzhou.wanshou.entity.Country">
+      update d_country
+      set city_id = #{cityId,jdbcType=INTEGER},
+        p_id = #{pId,jdbcType=INTEGER},
+        country_name = #{countryName,jdbcType=VARCHAR}
+      where country_id = #{countryId,jdbcType=INTEGER}
+    </update>
+</mapper>
