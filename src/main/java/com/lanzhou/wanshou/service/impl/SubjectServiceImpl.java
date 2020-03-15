@@ -7,6 +7,7 @@ import com.lanzhou.wanshou.entity.UserInfo;
 import com.lanzhou.wanshou.service.SubjectService;
 import com.lanzhou.wanshou.service.UserService;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -25,17 +26,30 @@ public class SubjectServiceImpl implements SubjectService {
 
     @Override
     public Integer insertSubject(SubjectInfo subjectInfo) {
-        return null;
+        String subjectName = subjectInfo.getName();
+        String unit = subjectInfo.getName();
+        if (StringUtils.isEmpty(subjectName) || StringUtils.isEmpty(unit)) {
+            return -1;
+        }
+        subjectInfoMapper.insert(subjectInfo);
+        return 1;
     }
 
     @Override
     public Integer deleteSubject(SubjectInfo subjectInfo) {
-        return null;
+        Integer id = subjectInfo.getId();
+        if (id == null) return -1;
+        subjectInfoMapper.deleteByPrimaryKey(id);
+        return 1;
     }
 
     @Override
     public Integer updateSubject(SubjectInfo subjectInfo) {
-        return null;
+        Integer id = subjectInfo.getId();
+        String dubjectName = subjectInfo.getName();
+        if (id == null || dubjectName.equals("")) return -1;
+        subjectInfoMapper.updateByPrimaryKeySelective(subjectInfo);
+        return 1;
     }
 
     @Override

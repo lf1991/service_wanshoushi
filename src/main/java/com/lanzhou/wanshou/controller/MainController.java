@@ -19,10 +19,17 @@ public class MainController {
 
     /**
      * 模块管理
+     *
      * @return
      */
     @GetMapping(path = "/queryUserById")
     public UserInfo queryUserById() {
         return userService.findUserById(1);
     }
+
+    @GetMapping(path = "/queryUserById")
+    public void queryGeographic() {
+
+    }
+
 }

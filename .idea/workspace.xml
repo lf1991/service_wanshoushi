@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11a1fd0-21ba-4a47-b290-e9f44c83c4e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/ReadText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/SubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/SubjectInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/SubjectInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SubjectInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SubjectInfoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/SubjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/dao/SubjectInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/dao/SubjectInfoMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/SubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/SubjectService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/SubjectServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mappers/SubjectInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mappers/SubjectInfoMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +102,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.LanzhouWanshouApplication">
+    <configuration name="ReadText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lanzhou.wanshou.controller.ReadText" />
+      <module name="lanzhou_wanshou_b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lanzhou.wanshou.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LanzhouWanshouApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lanzhou_wanshou_b" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lanzhou.wanshou.LanzhouWanshouApplication" />
@@ -114,6 +123,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReadText" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -127,7 +141,9 @@
       <updated>1582472205192</updated>
       <workItem from="1582472207881" duration="5573000" />
       <workItem from="1583774283286" duration="27106000" />
-      <workItem from="1583942360176" duration="9549000" />
+      <workItem from="1583942360176" duration="9692000" />
+      <workItem from="1584063485866" duration="19178000" />
+      <workItem from="1584285143382" duration="363000" />
     </task>
     <servers />
   </component>
