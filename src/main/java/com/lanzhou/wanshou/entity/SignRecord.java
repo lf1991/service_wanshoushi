@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class SignRecord extends SignRecordKey implements Serializable {
     private String subjectPeriod;
-
+    private String subjectName;
     private Long targetAmount;
 
     private Long signAmount;
@@ -16,13 +16,14 @@ public class SignRecord extends SignRecordKey implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public SignRecord(Integer userId, Date signTime, Integer subjectId, String subjectPeriod, Long targetAmount, Long signAmount, Integer subjectSort, Date subjectSelectDate) {
+    public SignRecord(Integer userId, Date signTime, Integer subjectId, String subjectPeriod, Long targetAmount, Long signAmount, Integer subjectSort, Date subjectSelectDate, String subjectName) {
         super(userId, signTime, subjectId);
         this.subjectPeriod = subjectPeriod;
         this.targetAmount = targetAmount;
         this.signAmount = signAmount;
         this.subjectSort = subjectSort;
         this.subjectSelectDate = subjectSelectDate;
+        this.subjectName = subjectName;
     }
 
     public SignRecord() {
@@ -67,5 +68,13 @@ public class SignRecord extends SignRecordKey implements Serializable {
 
     public void setSubjectSelectDate(Date subjectSelectDate) {
         this.subjectSelectDate = subjectSelectDate;
+    }
+
+    public String getSubjectName() {
+        return subjectName;
+    }
+
+    public void setSubjectName(String subjectName) {
+        this.subjectName = subjectName;
     }
 }

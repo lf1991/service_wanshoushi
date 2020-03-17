@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11a1fd0-21ba-4a47-b290-e9f44c83c4e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MainServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/MeritsDirectionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/MeritsDirectionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/SignRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/dao/SignRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/SignRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/entity/SignRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/service/impl/MainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SignRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SignRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SubjectInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/SubjectInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/MainServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lanzhou/wanshou/service/impl/MainServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +73,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lanzhou.wanshou.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\mybatis" />
+      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\java\com\lanzhou\wanshou\mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\java\com\lanzhou\wanshou\config" />
@@ -89,9 +89,8 @@
       <recent name="com.lanzhou.wanshou.controller" />
       <recent name="com.lanzhou.wanshou.bean" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\resources\mybatis" />
-      <recent name="E:\workspace\workspace_temple\service_wanshoushi\src\main\java\com\lanzhou\wanshou\mapper" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lanzhou.wanshou.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,7 +146,8 @@
       <workItem from="1583774283286" duration="27106000" />
       <workItem from="1583942360176" duration="9692000" />
       <workItem from="1584063485866" duration="19178000" />
-      <workItem from="1584285143382" duration="7836000" />
+      <workItem from="1584285143382" duration="9248000" />
+      <workItem from="1584356204267" duration="13736000" />
     </task>
     <servers />
   </component>
@@ -182,8 +182,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lanzhou/wanshou/controller/MainController.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="17" />
+          <line>134</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
